@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "5fd58595-5c45-4f80-85d9-d4df9e4c3347",
+		"name": "Miner Telemetry",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Miner",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "apiKey",
+						"value": "xysdfgh-3456ytr-zxcvbn12345-1212",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/telemetry/123-43217",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"telemetry",
+						"123-43217"
+					],
+					"query": [
+						{
+							"key": "apiKey",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

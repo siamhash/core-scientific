@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../producer-service"
+		},
+		{
+			"path": "../consumer-service"
+		}
+	],
+	"settings": {}
+}
